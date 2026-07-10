@@ -1,5 +1,5 @@
-// Include the client handler implementation
-#include "client.cpp"
+// Include the client handler declaration
+#include "client.h"
 // Standard C/C++ headers
 #include <cstring>
 #include <iostream>
