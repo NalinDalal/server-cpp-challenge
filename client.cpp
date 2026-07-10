@@ -1,8 +1,12 @@
-// Filesystem and I/O headers for file serving
+#include "client.h"
+
 #include <filesystem>
 #include <fstream>
+#include <iostream>
 #include <sstream>
-#include <vector>
+#include <sys/socket.h>
+#include <thread>
+#include <unistd.h>
 
 namespace fs = std::filesystem;
 
